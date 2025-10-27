@@ -31,4 +31,11 @@ This repository contains the **frontend code**, built using **Vue 3**, **Pinia**
 ---
 
 ## 📁 Project Structure
-
+src/
+│
+├── components/ # Reusable UI components (layout, tables, etc.)
+├── pages/ # Main route views like Dashboard, Messages
+├── stores/ # Pinia stores (e.g., FarmerStore)
+├── plugins/axios.js # Axios instance for backend communication
+├── App.vue # Root Vue component
+└── main.js # App entry point
